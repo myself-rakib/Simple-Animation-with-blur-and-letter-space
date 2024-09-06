@@ -1,0 +1,38 @@
+.D{
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palegreen;
+    color: rgb(255, 255, 255);
+}   
+
+.dd{
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.D:hover{
+    animation: asd 2s forwards;
+}
+@keyframes asd{
+    from{
+        filter: blur(8px);
+        letter-spacing: 18px;
+    }
+    to{
+        filter: blur(0);
+        letter-spacing: 8px;
+    }
+}
+.ddd{
+    margin-top: 180px;
+    margin-left: 80px;
+    width: 30%;
+    height: 30%;
+    letter-spacing: 4px;
+    font-size: 25px;
+    background: transparent;
+}
